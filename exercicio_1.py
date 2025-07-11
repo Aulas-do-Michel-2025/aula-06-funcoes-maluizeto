@@ -10,3 +10,10 @@ Se a nota for < 3 -> retorne "Reprovado".
 Obs: Escreva necessariamente uma função que retorne (não só imprima) esses valores. De exatamente o nome de `verificar_nota` porque
 o teste vai procurar uma função com esse nome.
 """
+def verificar_nota (a):
+    if a > 5:
+        return "Aprovado"
+    elif a > 3 and a < 5:
+        return "Recuperação"
+    elif a < 3:
+        return "Reprovado"
